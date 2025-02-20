@@ -7,6 +7,7 @@
     android:padding="36dp"
     tools:context=".MainActivity">
 
+    <!-- Input field untuk Panjang -->
     <EditText
         android:id="@+id/etLength"
         android:layout_width="match_parent"
@@ -14,6 +15,7 @@
         android:hint="Panjang"
         android:inputType="numberDecimal" />
 
+    <!-- Input field untuk Lebar -->
     <EditText
         android:id="@+id/etWidth"
         android:layout_width="match_parent"
@@ -21,6 +23,7 @@
         android:hint="Lebar"
         android:inputType="numberDecimal" />
 
+    <!-- Input field untuk Tinggi -->
     <EditText
         android:id="@+id/etHeight"
         android:layout_width="match_parent"
@@ -28,12 +31,14 @@
         android:hint="Tinggi"
         android:inputType="numberDecimal" />
 
+    <!-- Tombol untuk Hitung Volume -->
     <Button
         android:id="@+id/btnCalculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hitung Volume" />
 
+    <!-- TextView untuk Menampilkan Hasil Volume -->
     <TextView
         android:id="@+id/tvResult"
         android:layout_width="match_parent"
